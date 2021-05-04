@@ -8,31 +8,22 @@ import '../App.css'
 
 const Header = () => {
   return (
-    <div className="ui menu head">
+    <div className="ui menu">
 
-      {/* <a className="item" onClick={(e) => props.projectsButton(e)} href="/">Projects</a> */}
-      {/* <a className="item" onClick={(e) => props.aboutMeButton(e)} href="/">About Mateo</a> */}
-
-      {/* <a className="item"> <Link to="/projects/">Projects</Link> </a>
-      <a className="item"> <Link to="/aboutme/">About Me</Link> </a> */}
-
-      Portfolio
-
-      <div className="right menu">
+      <div className="right menu social-media">
         <a
           target="_blank"
           href="https://github.com/Rosenmatt1"
           rel="noopener noreferrer">
-          <i className="fab fa-github socialMediaGit"></i>
+          <i class="big github icon socialMediaGit"></i>
         </a>
 
         <a
           target="_blank"
           href="https://www.linkedin.com/in/matthew-rosenberg1/"
           rel="noopener noreferrer">
-          <i className="fab fa-linkedin-in socialMediaLinked "></i>
+          <i className="big linkedin icon socialMediaLinked"></i>
         </a>
-
       </div>
 
     </div>
