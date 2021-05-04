@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+.ui.menu {
+  margin: -.5rem;
+  height: 50px;
+  overflow: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.socialMediaGit {
+  font-size: 1.5rem;
+  margin-right: 2vw;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  color:black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.socialMediaLinked {
+  font-size: 1.5rem;
+  margin-right: 3.5vw;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  color:black;
+}
+
+.socialMediaGit:hover {
+  animation: shake 0.72s cubic-bezier(.10,.07,.1,.57) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  cursor: pointer
+}
+
+.socialMediaLinked:hover {
+  animation: shake 0.72s cubic-bezier(.10,.07,.1,.57) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  cursor: pointer
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
   }
-  to {
-    transform: rotate(360deg);
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
   }
 }
