@@ -49,6 +49,96 @@
   }
 }
 
+.giphy {
+  height: 100%;
+}
+
+.giphyWeather {
+  width: 15vw;
+  margin: auto;
+}
+
+.gifImg {
+border-radius: 15px;
+}
+
+.spacer {
+  margin-top: 2.5vw;
+}
+
+.spacerExtra {
+   margin-top: 4vw;
+}
+
+p {
+  margin: 0; 
+}
+
+.divider {
+  width: 75vw;
+}
+
+.title {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: Lato, sans-serif;
+  letter-spacing: 4px;
+  text-align: center;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.border {
+  border: 1px solid black;
+  background-color: transparent;
+  padding: 6vw;
+  z-index: 2;
+}
+
+.titleWhite {
+  position: absolute;
+  text-transform: uppercase;
+  color: white;
+  /* -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black; */
+  font-family: Lato, sans-serif;
+  font-size: 13px;
+  letter-spacing: 4px;
+  text-align: center;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.borderWhite {
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 6vw;
+  z-index: 2;
+}
+
+.ubervslyft {
+  margin-top: 5vh;
+}
+
+.boulevard {
+  margin-top: 4vh;
+}
+
+.chuck {
+  height: 7vh;
+  width: 7vw;
+  margin-left: 3vw;
+}
+
+.musicMargins {
+  margin-top: 3rem;
+  margin-right: 1rem;
+}
+
+
+
+
 .footerBuffer {
   height: 150px;
   background: white;
