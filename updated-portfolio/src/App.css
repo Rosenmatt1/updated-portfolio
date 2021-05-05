@@ -48,3 +48,26 @@
     transform: translate3d(4px, 0, 0);
   }
 }
+
+.footerBuffer {
+  height: 150px;
+  background: white;
+  z-index:0;
+}
+
+.footer {
+  background-color: #3e3e3e;
+  color: black;
+  padding: 1rem 0;
+  margin-top: -9rem;
+  height: 20vw;
+  clip-path: polygon(50% 50%, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+.footAlign { 
+  color: white;
+  clear: both;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+}
