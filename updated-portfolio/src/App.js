@@ -18,6 +18,8 @@ import Project7Form from './components/Project7Form';
 import ModalProject7 from './components/ModalProject7'
 import Project8Music from './components/Project8Music';
 import ModalProject8 from './components/ModalProject8'
+import Project9Chuck from './components/Project9Chuck';
+import ModalProject9 from './components/ModalProject9'
 
 import Footer from './components/Footer.js';
 
@@ -34,6 +36,9 @@ class App extends Component {
       modal6Toggle: false,
       modal7Toggle: false,
       modal8Toggle: false,
+      modal9Toggle: false,
+      modal10Toggle: false,
+      modal11Toggle: false,
       aboutMeDisplay: false,
       projectsDiplay: true,
       serverWakeUp: false
@@ -88,6 +93,24 @@ class App extends Component {
     })
   }
 
+  modal9 = () => {
+    this.setState({
+      modal9Toggle: true
+    })
+  }
+
+  modal10 = () => {
+    this.setState({
+      modal10Toggle: true
+    })
+  }
+
+  modal11 = () => {
+    this.setState({
+      modal11Toggle: true
+    })
+  }
+
   modalOff = () => {
     this.setState({
       modal1Toggle: false,
@@ -97,7 +120,10 @@ class App extends Component {
       modal5Toggle: false,
       modal6Toggle: false,
       modal7Toggle: false,
-      modal8Toggle: false
+      modal8Toggle: false,
+      modal9Toggle: false,
+      modal10Toggle: false,
+      modal11Toggle: false
     })
   }
 
@@ -157,6 +183,12 @@ class App extends Component {
         }
 
         <Project8Music modal8={this.modal8} />
+
+        {this.state.modal9Toggle &&
+          <ModalProject9 modalOff={this.modalOff} />
+        }
+
+        <Project9Chuck modal9={this.modal9} />
 
         <Footer />
       </div>
