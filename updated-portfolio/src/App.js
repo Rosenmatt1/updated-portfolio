@@ -20,6 +20,8 @@ import Project8Music from './components/Project8Music';
 import ModalProject8 from './components/ModalProject8'
 import Project9Chuck from './components/Project9Chuck';
 import ModalProject9 from './components/ModalProject9'
+import Project10Poker from './components/Project10Poker';
+import ModalProject10 from './components/ModalProject10'
 
 import Footer from './components/Footer.js';
 
@@ -132,32 +134,11 @@ class App extends Component {
       <div className="App">
         <Header />
 
-        <Project1 modal1={this.modal1} />
-
-        {this.state.modal1Toggle &&
-          <ModalProject1 modalOff={this.modalOff} />
+        {this.state.modal10Toggle &&
+          <ModalProject10 modalOff={this.modalOff} />
         }
 
-
-        {this.state.modal2Toggle &&
-          <ModalProject2 modalOff={this.modalOff} />
-        }
-
-        <Project2 modal2={this.modal2} />
-
-
-        {this.state.modal3Toggle &&
-          <ModalProject3 modalOff={this.modalOff} />
-        }
-
-        <Project3 modal3={this.modal3} />
-
-
-        {this.state.modal4Toggle &&
-          <ModalProject4 modalOff={this.modalOff} />
-        }
-
-        <Project4 modal4={this.modal4} />
+        <Project10Poker modal5={this.modal10} />
 
         {this.state.modal5Toggle &&
           <ModalProject5 modalOff={this.modalOff} />
@@ -183,6 +164,32 @@ class App extends Component {
         }
 
         <Project8Music modal8={this.modal8} />
+
+
+        {this.state.modal3Toggle &&
+          <ModalProject3 modalOff={this.modalOff} />
+        }
+
+        <Project3 modal3={this.modal3} />
+
+
+        {this.state.modal4Toggle &&
+          <ModalProject4 modalOff={this.modalOff} />
+        }
+
+        <Project4 modal4={this.modal4} />
+
+        {this.state.modal2Toggle &&
+          <ModalProject2 modalOff={this.modalOff} />
+        }
+
+        <Project2 modal2={this.modal2} />
+
+        <Project1 modal1={this.modal1} />
+
+        {this.state.modal1Toggle &&
+          <ModalProject1 modalOff={this.modalOff} />
+        }
 
         {this.state.modal9Toggle &&
           <ModalProject9 modalOff={this.modalOff} />
