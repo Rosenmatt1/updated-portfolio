@@ -23,6 +23,9 @@ import ModalProject9 from './components/ModalProject9'
 import Project10Poker from './components/Project10Poker';
 import ModalProject10 from './components/ModalProject10'
 
+import AboutMe from './components/AboutMe'
+import ReactCards from './components/cards/ReactCards.js'
+
 import ParallaxTop from './components/ParallaxTop.js'
 import ParallaxMiddle from './components/ParallaxMiddle.js'
 
@@ -139,6 +142,9 @@ class App extends Component {
 
         <ParallaxTop />
         {/* <ParallaxMiddle /> */}
+
+        <AboutMe />
+        <ReactCards />
 
         {this.state.modal10Toggle &&
           <ModalProject10 modalOff={this.modalOff} />
