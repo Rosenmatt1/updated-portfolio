@@ -5,13 +5,114 @@
   align-items: center;
 }
 
+.aboutMe {
+  background: white;
+  color:black;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.spacing {
+  margin-top: 5vh;
+  word-break:normal;
+}
+
+.skill {
+    display: inline-block;
+    border-radius: 1rem;
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
+    width: 7.7rem;
+    text-align: center;
+    margin-left: 1rem;
+    overflow: auto;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 300;
+    line-height: 2.2;
+}
+
+/* .skin {
+  margin-bottom: 5vw; 
+  padding: 10vw;
+  margin: 20vw;
+}  */
+
+.skill:hover {
+    transform: scaleY(1.05) scaleX(1.05);
+    transition: all 0.2s;
+    box-shadow: 0.4rem 1rem 1.6rem rgba(0, 0, 0, 0.2);
+}
+
+.shrinker {
+  width: 80%;
+}
+
+.mateo {
+  height: 37vh;
+  -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+  clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+  margin-top: 1vw;
+}
+
+.resume {
+  margin-top: 8vw;
+  margin-bottom: 2vw;
+}
+
+.viewResume {
+  font-size: 3.1rem;
+  background-color: white;
+  color: black;
+  margin-top: 6vw;
+  margin-bottom: 2vw;
+}
+
+.meetMateo {
+  font-family: Lato, sans-serif;
+  text-align: center;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+  letter-spacing: 4px;
+  background-color: transparent;
+}
+
+h3 {
+  font-family: Lato, sans-serif;
+  text-align: center;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: Lato, sans-serif;
+  letter-spacing: 4px;
+  background-color: transparent;
+}
+
+.title1 {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: Lato, sans-serif;
+  letter-spacing: 4px;
+  text-align: center;
+  background-color: transparent;
+  z-index: 2;
+}
+
 .socialMediaGit {
-  margin-right: .5vw !important;
+  font-size: 1.5rem;
+  margin-right: 2vw;
+  margin-top: 50%;
+  margin-bottom: 50%;
   color:black;
 }
 
 .socialMediaLinked {
-  margin-right: 2vw !important;
+  font-size: 1.5rem;
+  margin-right: 3.5vw;
+  margin-top: 50%;
+  margin-bottom: 50%;
   color:black;
 }
 
@@ -31,6 +132,7 @@
   cursor: pointer
 }
 
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
@@ -47,6 +149,24 @@
   40%, 60% {
     transform: translate3d(4px, 0, 0);
   }
+}
+
+.particles {
+  background: #b61924;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax {
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  z-index: 4;
 }
 
 .giphy {
@@ -73,6 +193,20 @@ border-radius: 15px;
 p {
   margin: 0; 
 }
+
+/* .project-left {
+  height: 50vh;
+  background: white;
+}
+
+.project-right {
+  height: 50vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+} */
 
 .divider {
   width: 75vw;
@@ -131,14 +265,6 @@ p {
   margin-left: 3vw;
 }
 
-.musicMargins {
-  margin-top: 3rem;
-  margin-right: 1rem;
-}
-
-
-
-
 .footerBuffer {
   height: 150px;
   background: white;
@@ -160,4 +286,165 @@ p {
   display: inline-block;
   white-space: nowrap;
   text-align: center;
+}
+
+.musicMargins {
+  margin-top: 3rem;
+  margin-right: 1rem;
+}
+
+/* .card-margins {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  z-index: 999;
+} */
+
+
+/* @media only screen and (max-width: 768px) {
+
+} */
+
+
+@media only screen and (min-width: 768px) {
+
+.socialMediaGit {
+  font-size: 2rem;
+  margin-right: 1.3vw;
+  /* margin-top: 1.5vh; */
+}
+
+.socialMediaLinked {
+  font-size: 2rem;
+  margin-right: 2.5vw;
+  /* margin-top: 2vh; */
+}
+
+.aboutMe {
+  height: 80vh;
+  background: white;
+  color:black;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  /* overflow: auto; */
+}
+
+.mateo {
+  height: 45vh;
+}
+
+.meetMateo {
+  font-size: 24px;
+  margin-bottom: 25vh;
+}
+
+.spacing {
+  margin-top: 1vh;
+  word-break: normal;
+}
+
+.particles {
+  height: 80vh;
+}
+
+.parallaxHeight {
+  height: 50vh;
+}
+
+.title {
+  font-size: 27px;
+  letter-spacing: 8px;
+}
+
+.border {
+  padding: 5vw;
+}
+
+.titleWhite {
+  font-size: 27px;
+  letter-spacing: 8px;
+}
+
+.borderWhite {
+  padding: 4vw;
+}
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+.socialMediaGit {
+  font-size: 2rem;
+  margin-right: .8vw;
+  margin-top: 1.1vh;
+}
+
+.socialMediaLinked {
+  font-size: 2rem;
+  margin-right: 2.5vw;
+  margin-top: 1.7vh;
+}
+
+.aboutMe {
+  font-size: 20px;
+}
+
+.mateo {
+  height: 60vh;
+}
+
+.resume {
+  margin-top: 5vw;
+}
+
+.viewResume {
+  margin-top: 2vw;
+}
+
+.meetMateo {
+  font-size: 22px;
+  margin-bottom: 25vh;
+  /* margin-top: 25vh; */
+}
+
+.spacing {
+  margin-top: 10vh;
+  margin-right: 5vw;
+  word-break: normal;
+}
+
+.particles {
+  height: 100vh;
+}
+
+.parallaxHeight{
+  height: 70vw;
+}
+
+.title {
+  font-size: 27px;
+  letter-spacing: 8px;
+}
+
+.border {
+  padding: 5vw;
+}
+
+.titleWhite {
+  font-size: 27px;
+  letter-spacing: 8px;
+}
+
+.borderWhite {
+  padding: 4vw;
+}
+
+.jsflash-left {
+  height: 60vh;
+}
+
+.jsflash-right {
+  height: 60vh;
+}
+
 }

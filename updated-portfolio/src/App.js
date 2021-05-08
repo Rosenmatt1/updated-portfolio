@@ -23,6 +23,9 @@ import ModalProject9 from './components/ModalProject9'
 import Project10Poker from './components/Project10Poker';
 import ModalProject10 from './components/ModalProject10'
 
+import ParallaxTop from './components/ParallaxTop.js'
+import ParallaxMiddle from './components/ParallaxMiddle.js'
+
 import Footer from './components/Footer.js';
 
 
@@ -134,6 +137,9 @@ class App extends Component {
       <div className="App">
         <Header />
 
+        <ParallaxTop />
+        {/* <ParallaxMiddle /> */}
+
         {this.state.modal10Toggle &&
           <ModalProject10 modalOff={this.modalOff} />
         }
@@ -145,7 +151,6 @@ class App extends Component {
         }
 
         <Project5Uber modal5={this.modal5} />
-
 
         {this.state.modal6Toggle &&
           <ModalProject6 modalOff={this.modalOff} />
