@@ -140,11 +140,10 @@ class App extends Component {
       <div className="App">
         <Header />
 
-        <ParallaxTop />
-        {/* <ParallaxMiddle /> */}
-
         <AboutMe />
         <ReactCards />
+
+        <ParallaxTop />
 
         {this.state.modal10Toggle &&
           <ModalProject10 modalOff={this.modalOff} />
@@ -169,6 +168,8 @@ class App extends Component {
         {this.state.modal7Toggle &&
           <ModalProject7 modalOff={this.modalOff} />
         }
+
+        <ParallaxMiddle />
 
         {this.state.modal8Toggle &&
           <ModalProject8 modalOff={this.modalOff} />
