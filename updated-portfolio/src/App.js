@@ -197,11 +197,11 @@ class App extends Component {
 
         <Project2 modal2={this.modal2} />
 
-        <Project1 modal1={this.modal1} />
+        {/* <Project1 modal1={this.modal1} />
 
         {this.state.modal1Toggle &&
           <ModalProject1 modalOff={this.modalOff} />
-        }
+        } */}
 
         {this.state.modal9Toggle &&
           <ModalProject9 modalOff={this.modalOff} />

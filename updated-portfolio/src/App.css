@@ -31,12 +31,6 @@
     line-height: 2.2;
 }
 
-/* .skin {
-  margin-bottom: 5vw; 
-  padding: 10vw;
-  margin: 20vw;
-}  */
-
 .skill:hover {
     transform: scaleY(1.05) scaleX(1.05);
     transition: all 0.2s;
