@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import './App.css';
 
 import Header from './components/Header.js';
-import Project1 from './components/Project1';
-import ModalProject1 from './components/ModalProject1'
+// import Project1 from './components/Project1';
+// import ModalProject1 from './components/ModalProject1'
 import Project2 from './components/Project2';
 import ModalProject2 from './components/ModalProject2'
 import Project3 from './components/Project3';
@@ -28,6 +28,8 @@ import ReactCards from './components/cards/ReactCards.js'
 
 import ParallaxTop from './components/ParallaxTop.js'
 import ParallaxMiddle from './components/ParallaxMiddle.js'
+
+import ParticlesTop from './components/ParticlesTop.js'
 
 import Footer from './components/Footer.js';
 
@@ -139,6 +141,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+
+        <ParticlesTop />
 
         <AboutMe />
         <ReactCards />

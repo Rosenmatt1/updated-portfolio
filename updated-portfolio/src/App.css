@@ -3,6 +3,7 @@
   overflow: none;
   display: flex;
   align-items: center;
+  margin: 0;
 }
 
 .aboutMe {
@@ -15,7 +16,7 @@
 
 .spacing {
   margin-top: 5vh;
-  word-break:normal;
+  word-break: normal;
 }
 
 .skill {
@@ -172,7 +173,7 @@ h3 {
 }
 
 .gifImg {
-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .spacer {
@@ -199,14 +200,14 @@ p {
   letter-spacing: 4px;
   text-align: center;
   background-color: transparent;
-  z-index: 2;
+  z-index: 10;
 }
 
 .border {
   border: 1px solid black;
   background-color: transparent;
   padding: 6vw;
-  z-index: 2;
+  z-index: 10;
 }
 
 .titleWhite {
@@ -333,6 +334,7 @@ p {
 .title {
   font-size: 27px;
   letter-spacing: 8px;
+  z-index: 111;
 }
 
 .border {
