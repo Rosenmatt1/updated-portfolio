@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+.social-media {
+  margin-right: 1rem !important;
+}
+
 .aboutMe {
   background: white;
   color:black;
@@ -149,10 +153,30 @@ h3 {
 .particles {
   background: #b61924;
   height: 80vh;
-  display: flex;
+  position: relative;
+  /* display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: Lato, sans-serif;
+  letter-spacing: 4px;
+  text-align: center;
+  background-color: transparent;
+  z-index: 10;
+}
+
+.projects {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
 }
 
 .parallax {
@@ -214,8 +238,6 @@ p {
   position: absolute;
   text-transform: uppercase;
   color: white;
-  /* -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black; */
   font-family: Lato, sans-serif;
   font-size: 13px;
   letter-spacing: 4px;
