@@ -27,7 +27,7 @@ class Project7Form extends Component {
             </button>
           </div>
 
-          <div className="ui centered aligned grid eight wide column spacer mr-2">
+          <div className="ui centered aligned grid eight wide column spacer mr-2 bspacer">
             <div className="" >
               <img
                 className="ui fluid image"

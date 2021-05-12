@@ -154,10 +154,6 @@ h3 {
   background: #b61924;
   height: 80vh;
   position: relative;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; */
 }
 
 .title {
@@ -176,7 +172,6 @@ h3 {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-
 }
 
 .parallax {
@@ -253,18 +248,46 @@ p {
   z-index: 2;
 }
 
-.ubervslyft {
-  margin-top: 5vh;
+.poker {
+  margin-top: -2rem !important;
+}
+
+.ui.bspacer {
+  margin-bottom: 2rem !important;
+}
+
+.ui.drive {
+  margin-top: -2rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.musicMargins {
+  margin-top: 2rem;
+  margin-right: 1rem;
 }
 
 .boulevard {
-  margin-top: 4vh;
+  margin-top: -1rem !important;
 }
 
 .chuck {
   height: 7vh;
   width: 7vw;
   margin-left: 3vw;
+}
+
+.ui.grid+.grid {
+  margin-top: -1rem;
+}
+
+/* .ui.grid>.row {
+  padding-top: 0;
+  padding-bottom: 0;
+} */
+
+.ui.grid.email {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .footerBuffer {
@@ -289,17 +312,6 @@ p {
   white-space: nowrap;
   text-align: center;
 }
-
-.musicMargins {
-  margin-top: 3rem;
-  margin-right: 1rem;
-}
-
-/* .card-margins {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  z-index: 999;
-} */
 
 
 /* @media only screen and (max-width: 768px) {

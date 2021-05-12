@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import '../App.css'
-import image from './assets/react-inbox.gif'
+import image from './assets/table-pro.png'
 
-class ModalProject2 extends Component {
+class ModalProject11 extends Component {
 
   render() {
     return (
-      <div className="ui grid email">
+      <div className="ui middle aligned grid">
         <div className="ui centered ten wide column">
           <div className="ui active modal" >
             <i
@@ -14,40 +14,38 @@ class ModalProject2 extends Component {
               onClick={() => this.props.modalOff()}
             ></i>
             <div className="header">
-              React Email Inbox
+              Table Pro
             </div>
             <div className="image content">
               <div className="ui medium image">
                 <img
-                  className="react-inbox"
+                  className="jsFlashcards"
                   src={image}
-                  alt="react-email-inbox-project" />
+                  alt="table pro" />
               </div>
               <div className="description">
-                <div className="ui header">Checking your email just got cool.</div>
-                <p>This project is a fully functional email inbox built with React.js, JavaScript, and Bootstrap called <a href="https://email-inbox-react.firebaseapp.com/" target="_blank" rel="noopener noreferrer">React Inbox.</a> The site is responsive, mobile friendly, and runs flawlessly. </p>
-                <p>Try it out for yourself...</p>
+                <div className="ui header">Searching for your Favorite Restaurant just got Easy!</div>
+                <p>This is a fully functional table <a href="https://table-pro.web.app/" target="_blank" rel="noopener noreferrer">Table Pro</a> that allows the user to search based on multiple filters.  Review the code base here on<a href="https://github.com/Rosenmatt1/charter-spectrum/tree/master/charter-spectrum" target="_blank" rel="noopener noreferrer"> on Github. </a></p>
+                <p>Try it for yourself...</p>
               </div>
             </div>
             <div className="actions">
-
               <div
                 className="ui black deny button"
                 onClick={() => this.props.modalOff()}
               >
                 Close
               </div>
-
-              <a
+              <a 
                 onClick={() => this.props.modalOff()}
-                href="https://email-inbox-react.firebaseapp.com/" target="_blank"
+                href="https://js-flash-cards.firebaseapp.com/"
+                target="_blank"
                 rel="noopener noreferrer">
                 <div className="ui red right labeled icon button">
                   Visit Site
                   <i className="angle up icon"></i>
                 </div>
               </a>
-
             </div>
           </div >
 
@@ -57,4 +55,4 @@ class ModalProject2 extends Component {
   }
 }
 
-export default ModalProject2
+export default ModalProject11

@@ -25,7 +25,7 @@ class ModalProject5 extends Component {
               </div>
               <div className="description">
                 <div className="ui header">Uber vs Lyft</div>
-                <p>This is a web app called <a
+                <p> This is a web app called <a
                   href="https://ubervslyftapp.firebaseapp.com/"
                   target="_blank"
                   rel="noopener noreferrer">Better Ride

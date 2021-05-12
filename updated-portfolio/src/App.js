@@ -22,6 +22,8 @@ import Project9Chuck from './components/Project9Chuck';
 import ModalProject9 from './components/ModalProject9'
 import Project10Poker from './components/Project10Poker';
 import ModalProject10 from './components/ModalProject10'
+import Project11Table from './components/Project11Table';
+import ModalProject11 from './components/ModalProject11'
 
 import AboutMe from './components/AboutMe'
 import ReactCards from './components/cards/ReactCards.js'
@@ -206,6 +208,12 @@ class App extends Component {
         {this.state.modal1Toggle &&
           <ModalProject1 modalOff={this.modalOff} />
         } */}
+
+        {this.state.modal11Toggle &&
+          <ModalProject11 modalOff={this.modalOff} />
+        }
+
+        <Project11Table modal11={this.modal11} />
 
         {this.state.modal9Toggle &&
           <ModalProject9 modalOff={this.modalOff} />

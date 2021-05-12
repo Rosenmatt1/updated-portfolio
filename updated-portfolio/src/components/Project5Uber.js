@@ -31,7 +31,7 @@ class Project5Uber extends Component {
             </button>
           </div>
 
-          <div className="ui centered aligned grid eight wide column spacer">
+          <div className="ui centered aligned grid eight wide column spacer drive">
             <div className="giphy" >
               <img
                 className="ui fluid image"
