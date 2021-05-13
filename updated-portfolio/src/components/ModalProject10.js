@@ -25,12 +25,20 @@ class ModalProject10 extends Component {
               </div>
               <div className="description">
                 <div className="ui header">Poker App</div>
-                <p>This is a web <a
-                  href=""
+                <p>This is a web&nbsp;
+                  <a
+                  href="https://poker-game-app.web.app/"
                   target="_blank"
                   rel="noopener noreferrer">Poker App
-                </a> is a poker game that deals cards. The user wins if one of the last two cards is an Ace. </p>
-                <p>Try it out...</p>
+                </a> 
+                &nbsp;game that deals cards. The user wins if one of the last two cards is an Ace.</p>
+                <p>Try it out&nbsp;
+                <a
+                  href="https://poker-game-app.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer">here.
+                </a> 
+                </p>
               </div>
             </div>
             <div className="actions">
@@ -43,7 +51,7 @@ class ModalProject10 extends Component {
 
               <a
                 target="_blank"
-                href=""
+                href="https://poker-game-app.web.app/"
                 rel="noopener noreferrer"
                 onClick={() => this.props.modalOff()}
               >

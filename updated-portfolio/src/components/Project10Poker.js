@@ -17,7 +17,7 @@ class Project10Poker extends Component {
             <h5>Tech Used:</h5>
             <p>-React.js</p>
             <p>-JavaScript</p>
-            <p>-CSS</p>
+            <p>-CSS3</p>
 
             <button
               className="ui button"

@@ -3,7 +3,6 @@ import '../App.css'
 import image from './assets/boulevard.png'
 
 class ModalProject3 extends Component {
-
   render() {
     return (
       <div className="ui grid">
