@@ -38,7 +38,7 @@ class ModalProject11 extends Component {
               </div>
               <a 
                 onClick={() => this.props.modalOff()}
-                href="https://js-flash-cards.firebaseapp.com/"
+                href="https://table-pro.firebaseapp.com/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <div className="ui red right labeled icon button">
