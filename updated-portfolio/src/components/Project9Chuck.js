@@ -17,7 +17,7 @@ class Project9Chuck extends Component {
             <h5>Tech Used:</h5>
             <p>-React.js</p>
             <p>-JavaScript</p>
-            <p>-HTTP Fetch</p>
+            <p>-TypeScript</p>
 
             <button
               className="ui button"
